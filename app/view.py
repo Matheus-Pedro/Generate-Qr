@@ -1,8 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk as tk
-import os
-import model
+from main import model
 import qrcode
 
 def create_app(title):
@@ -43,8 +42,6 @@ def is_http_link(string):
         return True
     else:
         return False
-
-create_app(title="Gerador de QR Code")
 
 '''
     fill: str = field(default="black")

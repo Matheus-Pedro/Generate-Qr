@@ -19,16 +19,16 @@ $ source .venv/Script/activate # Windows
 ```
 Após o processo de criação e ativação do `venv`. Iremos realizar a instalação dos arquivos que estão no `requirements.txt`:
 ```
-pip install -r requirements.txt
+pip install -r requirements/requirements.txt
 ```
 Pronto, a etapa de instalação foi concluída. :grin::grin:
 
 ## Iniciando o projeto
 Para iniciar o projeto, basta rodar o seguinte comando no terminal:
 ```
-$ python3 app/view.py # Mac ou Linux
+$ python3 main.py # Mac ou Linux
 # ou
-$ python app/view.py # Windows
+$ python main.py # Windows
 ```
 
 > [!IMPORTANT]

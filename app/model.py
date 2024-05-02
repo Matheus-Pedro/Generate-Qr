@@ -16,6 +16,6 @@ class Qrcode:
         img.save(self.save_address)
 
 
-object_qr = Qrcode(data_address="https://github.com/Matheus-Pedro", qr = qrcode.QRCode(version=1, box_size=10, border=4), save_address="media/qrs/teste.png")
+object_qr = Qrcode(data_address="https://github.com/Matheus-Pedro/", qr = qrcode.QRCode(version=1, box_size=10, border=4), save_address="media/qrs/credits.png")
 
 object_qr.create_qr()
